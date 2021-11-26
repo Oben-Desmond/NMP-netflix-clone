@@ -1,38 +1,68 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  padding: 20px 20px;
+}
+.padding{
+  padding:20px;
+}
+.margin{
+  margin:20px;
+}
+.spacer{
+  height: 20px;
+}
+.main-poster .card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.713);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.black-overlay{
+  background-color: rgba(0, 0, 0, 0.563);
+}
+.main-poster .add-btn{
+   background-color: rgba(99, 99, 99, 0.494);
+   color: white;
+   font-size: 20px;
+   border-radius: 10px;
+   border:none;
+}
+.main-poster .btn-danger{
+  border-radius: 10px;
+}
+.btn-row{
+  margin-left: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mid-card{
+  height: 30vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.mid-card img{
+  height: 30vh;
+  object-fit: cover;
+}
+.add-actor.btn{
+  background-color: rgba(97, 96, 96, 0.583);
   color: white;
+  border: none;
+
+}
+  
+.add-actor.btn:hover{
+  background-color: rgba(179, 25, 54, 0.624)
 }
 
-.App-link {
-  color: #61dafb;
+.mid-card.card img, .min-card.card{
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.actor-rating *{
+  color: rgb(255, 183, 0);
+  margin-right: 5px;
+}
+.btn-link{
+  color: rgb(90, 88, 88);
+  
+}
+.btn-link:hover{
+  color: rgb(97, 95, 95);
+  /* text-decoration: ; */
 }
