@@ -1,0 +1,17 @@
+.popular-card, .popular-card .img{
+    height: 30vh;
+}
+
+.right-col{
+    position: relative;
+    padding-top: 10px;
+}
+.right-col .bottom{
+    position: absolute;
+    bottom: 10px;
+}
+
+.right-col .bottom .imdb{
+    padding: 2px;
+    margin-right: 10px;
+}

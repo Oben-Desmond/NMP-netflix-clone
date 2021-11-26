@@ -1,21 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-// import MainPoster from './components/MainPoster';
-import MainPoster from "./components/MainPoster";
+import LeftColumn from './components/LeftColumn';
 import MidColumn from './components/MidColumn';
-
+import  RightColumn from "./components/RightColumn";
 
 function App() {
   return (
     <div className={`App`}>
       <div class="row">
-        <div class="col">
-          Column
-        </div>
+        <LeftColumn></LeftColumn>
         <MidColumn></MidColumn>
-        <div class="col">
-          Column
-    </div>
+         <RightColumn></RightColumn>
       </div>
     </div>
 

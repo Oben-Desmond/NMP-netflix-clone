@@ -1,0 +1,25 @@
+.left-column .container{
+    padding-left: 20px;
+}
+
+.item{
+    padding: 20px 10px 0 10px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+.item:hover{
+   background-color: rgb(218, 214, 214);
+   border-right: 8px solid #d83c3c;
+   cursor: pointer;
+}
+.item{
+    color: #807d7d;
+}
+.item:hover .item-icon{
+    color:#d83c3c;
+}
+
+.item .item-icon{
+    font-size: 20px;
+}
+
